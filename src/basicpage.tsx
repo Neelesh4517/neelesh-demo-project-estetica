@@ -34,7 +34,9 @@ const products: Product[] = [
   { id: 14, name: "L'Oreal Professionnel D...", image: "src/assets/six.png" },
 ];
 
+
 const ProductsPage: React.FC = () => {
+  console.log("hi---");
   const [search, setSearch] = useState<string>("");
   const [cart, setCart] = useState<CartItem[]>([]);
   const [showCheckout, setShowCheckout] = useState<boolean>(false);

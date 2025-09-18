@@ -4,10 +4,10 @@ import ProductsPage from "./basicpage";
 // import ProductsPage from "./basicpage";
 
 const App: React.FC = () => {
+  console.log("hi");
   return (
     <Router>
       <Routes>
-        <h1>hi</h1>
         <Route path="/" element={<ProductsPage />} />
       </Routes>
     </Router>
